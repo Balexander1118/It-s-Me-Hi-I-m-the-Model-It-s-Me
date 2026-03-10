@@ -4,7 +4,7 @@
 This project analyzes Taylor Swift lyrics with NLP, classical ML, and embedding-based neural workflows to surface discography-level patterns.
 
 Primary notebook:
-- `TS .ipynb`
+- `TS.ipynb`
 
 Primary dataset:
 - `taylor_swift_lyrics.csv`
@@ -34,7 +34,7 @@ pip install pandas numpy matplotlib scikit-learn sentence-transformers umap-lear
 python -m spacy download en_core_web_sm
 ```
 
-3. Ensure `taylor_swift_lyrics.csv` is in the same folder as `TS .ipynb`.
+3. Ensure `taylor_swift_lyrics.csv` is in the same folder as `TS.ipynb`.
 
 ## Project Workflow
 ### 1) Base NLP + exploratory analysis
@@ -68,7 +68,7 @@ python -m spacy download en_core_web_sm
 ## How to Run
 1. Launch Jupyter from this folder:
    - `jupyter notebook`
-2. Open `TS .ipynb`.
+2. Open `TS.ipynb`.
 3. Run all cells from top to bottom.
 4. Re-run the final similarity cells with different query songs/albums for targeted comparisons.
 
